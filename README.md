@@ -17,3 +17,7 @@ Antiheroes: Offer versatility and unique strategies.
 
 <h3> Victory Conditions </h3>
 Marvel Ultimate War is a game of elimination. The player who eliminates all three characters from their opponents' teams while keeping at least one character standing wins the game. Be prepared for intense battles, heroic feats, and unexpected twists!
+
+  <h2>Feedback</h2>
+    <p>If you have any feedback or suggestions, I would love to hear from you. Please contact me at:</p>
+    <p><strong>Email</strong>: <a href="mailto:mohannadnasar99@gmail.com">mohannadnasar99@gmail.com</a></p>
