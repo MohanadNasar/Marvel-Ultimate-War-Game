@@ -67,14 +67,14 @@ Each player selects one champion as their leader, who gains a special ability us
 
 ### Running the Game
 
-### Running the Game
-
 #### 1. Clone the Project
 Clone this project onto your local machine using Git. Click the button below to copy the clone command or run the following command in your terminal:
 
 [![Clone Project](https://img.shields.io/badge/Clone%20Project-green?style=for-the-badge&logo=git)](https://github.com/MohanadNasar/Marvel-Ultimate-War-Game.git)
-git clone https://github.com/MohanadNasar/Marvel-Ultimate-War-Game.git
 
+```bash
+git clone https://github.com/MohanadNasar/Marvel-Ultimate-War-Game.git
+```
 
 #### 2. Open in Eclipse IDE
 Open the project in Eclipse IDE by importing it into your workspace.
