@@ -7,14 +7,23 @@ Marvel: Ultimate War is an electrifying 3v3 2D board game set in the Marvel Univ
 ## How to Play
 
 1. **Choose Your Team Name**: Select a memorable name for your team.
+
 ![ChooseYourName](https://github.com/MohanadNasar/Marvel-Ultimate-War-Game/blob/main/MarvelName.png?raw=true)
+
 2. **Assemble Your Team**: Pick three characters from the Marvel Universe, each with their own unique abilities. Decide if they are heroes, villains, or antiheroes.
+
 ![ChooseYourName](https://github.com/MohanadNasar/Marvel-Ultimate-War-Game/blob/main/PickUrChampions.png?raw=true)
+
 3. Choose Your Leader.
+
 ![ChooseYourName](https://github.com/MohanadNasar/Marvel-Ultimate-War-Game/blob/main/ChooseUrLeader.png?raw=true)
+
 4. **Take Turns**: Marvel: Ultimate War is a turn-based game. Strategically move your characters and utilize their abilities to gain an advantage over your opponents.
+
 ![ChooseYourName](https://github.com/MohanadNasar/Marvel-Ultimate-War-Game/blob/main/Gameplay.png?raw=true)
+
 5. **Eliminate Opponents**: Your goal is to eliminate all three characters from your opponents' teams. The last player with at least one character remaining wins the game.
+
 ![ChooseYourName](https://github.com/MohanadNasar/Marvel-Ultimate-War-Game/blob/main/Snap-Victory-1200x675.jpg?raw=true)
 
 
@@ -55,6 +64,22 @@ Each player selects one champion as their leader, who gains a special ability us
 - Players take turns based on champion speed.
 - Use champions to perform actions strategically.
 - The game ends when one player eliminates all three of their opponent's champions.
+
+### Running the Game
+
+#### 1. Clone the Project
+Clone this project onto your local machine using Git. Run the following command in your terminal:
+git clone https://github.com/MohanadNasar/Marvel-Ultimate-War-Game.git
+
+#### 2. Open in Eclipse IDE
+Open the project in Eclipse IDE by importing it into your workspace.
+
+#### 3. Run GameConsole.java
+Navigate to the `GameConsole.java` file in the `controller` package and run it.
+
+#### 4. Enjoy!
+Have fun playing the game!
+
 
 ## Feedback
 
