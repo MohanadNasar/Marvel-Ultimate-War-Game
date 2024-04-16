@@ -50,9 +50,9 @@ public class ChampionSelection   extends JFrame implements ActionListener{
 	JButton p2champ2 = new JButton();
 	JButton p2champ3 = new JButton();
 	
-	JLabel avengersBlue = new JLabel(new ImageIcon("ablue1.png"));
-	JLabel ChampionSelectionL = new JLabel(new ImageIcon("pickchamp.png"));
-	JLabel avengersRed = new JLabel(new ImageIcon("ared.png"));
+	JLabel avengersBlue = new JLabel(new ImageIcon("public/ablue1.png"));
+	JLabel ChampionSelectionL = new JLabel(new ImageIcon("public/pickchamp.png"));
+	JLabel avengersRed = new JLabel(new ImageIcon("public/ared.png"));
 
 	
 	public ChampionSelection() throws IOException {
@@ -65,7 +65,7 @@ public class ChampionSelection   extends JFrame implements ActionListener{
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setLayout(new BorderLayout());
 		this.setTitle("Marvel Ultimate War");
-		this.setIconImage(new ImageIcon("GameIcon.jpeg").getImage());
+		this.setIconImage(new ImageIcon("public/GameIcon.jpeg").getImage());
 		
 		
 		
@@ -123,21 +123,21 @@ public class ChampionSelection   extends JFrame implements ActionListener{
 		yellowJackB.setName("Yellow Jacket");
 		yellowJackB.addActionListener(this);
 		
-		ImageIcon captianAmericaI = new ImageIcon("captainamericaa.png");
-		ImageIcon deadpoolI = new ImageIcon("deadpool.png");
-		ImageIcon drStrangeI = new ImageIcon("dr starnge .png");
-		ImageIcon electroI = new ImageIcon("electro.png");
-		ImageIcon ghostRiderI = new ImageIcon("ghost rider.png");
-		ImageIcon helaI = new ImageIcon("hela.png");
-		ImageIcon hulkI = new ImageIcon("hulk.png");
-		ImageIcon iceManI = new ImageIcon("ice man.png");
-		ImageIcon ironManI = new ImageIcon("ironman.png");
-		ImageIcon lokiI = new ImageIcon("loki.png");
-		ImageIcon quickSilverI = new ImageIcon("quicksilver.png");
-		ImageIcon spiderManI = new ImageIcon("spiderman.png");
-		ImageIcon thorI = new ImageIcon("thor.png");
-		ImageIcon venomI = new ImageIcon("venom.png");
-		ImageIcon yellowJackI = new ImageIcon("yellow jack.png");
+		ImageIcon captianAmericaI = new ImageIcon("public/captainamericaa.png");
+		ImageIcon deadpoolI = new ImageIcon("public/deadpool.png");
+		ImageIcon drStrangeI = new ImageIcon("public/dr starnge .png");
+		ImageIcon electroI = new ImageIcon("public/electro.png");
+		ImageIcon ghostRiderI = new ImageIcon("public/ghost rider.png");
+		ImageIcon helaI = new ImageIcon("public/hela.png");
+		ImageIcon hulkI = new ImageIcon("public/hulk.png");
+		ImageIcon iceManI = new ImageIcon("public/ice man.png");
+		ImageIcon ironManI = new ImageIcon("public/ironman.png");
+		ImageIcon lokiI = new ImageIcon("public/loki.png");
+		ImageIcon quickSilverI = new ImageIcon("public/quicksilver.png");
+		ImageIcon spiderManI = new ImageIcon("public/spiderman.png");
+		ImageIcon thorI = new ImageIcon("public/thor.png");
+		ImageIcon venomI = new ImageIcon("public/venom.png");
+		ImageIcon yellowJackI = new ImageIcon("public/yellow jack.png");
 		
 		 captianAmericaB.setIcon(captianAmericaI);
 		 deadpoolB.setIcon(deadpoolI);
@@ -254,7 +254,7 @@ public class ChampionSelection   extends JFrame implements ActionListener{
 		secondPlayerPanel.add(p2champ2);
 		secondPlayerPanel.add(p2champ3);
 		
-		ImageIcon playI = new ImageIcon("playB.png");
+		ImageIcon playI = new ImageIcon("public/playB.png");
 		playB.setBackground(Color.BLACK);
 		playB.addActionListener(this);
 		playB.setFocusable(false);
@@ -354,7 +354,7 @@ public class ChampionSelection   extends JFrame implements ActionListener{
 	    	for(int i =0; i<buttons.size();i++) {
 	    	if(game.getFirstPlayer().getTeam().size()==3 && game.getSecondPlayer().getTeam().size()==3) {
 	    		ChampionGrid.setVisible(false);
-	    		JLabel leader= new JLabel(new ImageIcon("Choose your leader1.png"));
+	    		JLabel leader= new JLabel(new ImageIcon("public/Choose your leader1.png"));
 	    		selectLeader.add(leader);
 	    		selectLeader.setBackground(Color.BLACK);
 	    		this.add(selectLeader,BorderLayout.CENTER);
@@ -491,7 +491,7 @@ public class ChampionSelection   extends JFrame implements ActionListener{
 	    		
 	    		selectLeader.setVisible(false);
 	    		
-	    		JLabel teams= new JLabel(new ImageIcon("teams.jpg"));
+	    		JLabel teams= new JLabel(new ImageIcon("public/teams.jpg"));
 	    		teamVsP.add(teams);
 	    		teamVsP.setBackground(Color.BLACK);
 	    		this.add(teamVsP,BorderLayout.CENTER);

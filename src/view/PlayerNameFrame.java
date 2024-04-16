@@ -34,7 +34,7 @@ public class PlayerNameFrame  extends JFrame implements ActionListener {
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setLayout(new BorderLayout());
 		this.setTitle("Marvel Ultimate War");
-		this.setIconImage(new ImageIcon("GameIcon.jpeg").getImage());
+		this.setIconImage(new ImageIcon("public/GameIcon.jpeg").getImage());
 		//this.setContentPane(new JLabel(new ImageIcon("GameIcon.jpeg")));
 	
 		
@@ -67,12 +67,12 @@ public class PlayerNameFrame  extends JFrame implements ActionListener {
 		
 		//label
 		JLabel marvelIcon = new JLabel();
-		ImageIcon marvelLogo = new ImageIcon("marvel1.jpeg");
+		ImageIcon marvelLogo = new ImageIcon("public/marvel1.jpeg");
 		marvelIcon.setIcon(marvelLogo);
 		//JLabel ultimatewar = new JLabel();
 		//ultimatewar.setIcon(new ImageIcon("ultimatewar.jpg"));
 		
-		ImageIcon vsIcon = new ImageIcon("vsicon.png");
+		ImageIcon vsIcon = new ImageIcon("public/vsicon.png");
 		JLabel vsLabel= new JLabel(vsIcon);
 		
 	
@@ -110,7 +110,7 @@ public class PlayerNameFrame  extends JFrame implements ActionListener {
 	
 	    playButton = new JButton();
 		playButton.addActionListener(this);
-		ImageIcon startIcon = new ImageIcon("startIcon.png");
+		ImageIcon startIcon = new ImageIcon("public/startIcon.png");
 		playButton.setIcon(startIcon);
 		playButton.setBackground(Color.BLACK);
 		this.add(playButton);

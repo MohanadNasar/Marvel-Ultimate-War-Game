@@ -94,7 +94,7 @@ public class GameFrame  extends JFrame implements ActionListener  {
 	
 	
 	
-	JButton leaderAbilityB = new JButton(new ImageIcon("leader_ability.png"));
+	JButton leaderAbilityB = new JButton(new ImageIcon("public/leader_ability.png"));
 	JButton attackUpB = new JButton("Attack Up");
 	JButton attackDownB = new JButton("Attack Down");
 	JButton attackRightB = new JButton("Attack Right");
@@ -106,7 +106,7 @@ public class GameFrame  extends JFrame implements ActionListener  {
 	JButton moveLeftB = new JButton("Move Left");
 	
 	
-	JButton endTurnB = new JButton(new ImageIcon("end_turn.png"));
+	JButton endTurnB = new JButton(new ImageIcon("public/end_turn.png"));
 	
 	JButton abilityUpB= new JButton("Ability Up");
 	JButton abilityDownB =  new JButton("Ability Up");
@@ -116,7 +116,7 @@ public class GameFrame  extends JFrame implements ActionListener  {
 	
 	JLabel leaderAbilityUsed1= new JLabel("Leader Ability not used yet");
 	JLabel leaderAbilityUsed2= new JLabel("Leader Ability not used yet");
-	JLabel championTurnsL= new JLabel(new ImageIcon("champions_turn1.png"));
+	JLabel championTurnsL= new JLabel(new ImageIcon("public/champions_turn1.png"));
 	JLabel championAttributesL = new JLabel();
 	
 	ImageIcon coverf;
@@ -142,7 +142,7 @@ public class GameFrame  extends JFrame implements ActionListener  {
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setLayout(new BorderLayout());
 		this.setTitle("Marvel Ultimate War");
-		this.setIconImage(new ImageIcon("GameIcon.jpeg").getImage());
+		this.setIconImage(new ImageIcon("public/GameIcon.jpeg").getImage());
 		this.setBackground(Color.BLACK);
 		this.repaint();
 	
@@ -195,7 +195,7 @@ public class GameFrame  extends JFrame implements ActionListener  {
 		
 		//JPanel boardFestek = new JPanel();
 		//boardFestek.setLayout(new GridLayout(5,5));
-		JLabel boardPic = new JLabel(new ImageIcon("BoardPic1.png"));
+		JLabel boardPic = new JLabel(new ImageIcon("public/BoardPic1.png"));
 		boardPic.setBackground(Color.BLACK);
 		
 		slidersP.setLayout(new BorderLayout());
@@ -238,7 +238,7 @@ public class GameFrame  extends JFrame implements ActionListener  {
 		ability1P.add(ability1LeftB,BorderLayout.WEST);
 		
 		
-		ability1MainP.add(new JLabel(new ImageIcon("orb.png")));
+		ability1MainP.add(new JLabel(new ImageIcon("public/orb.png")));
 		ability1MainP.add(ability1P);
 		
 		///////////////////////////////////////////////////
@@ -255,7 +255,7 @@ public class GameFrame  extends JFrame implements ActionListener  {
 		ability2P.add(ability2RightB,BorderLayout.EAST);
 		ability2P.add(ability2LeftB,BorderLayout.WEST);
 		
-		ability2MainP.add(new JLabel(new ImageIcon("orb.png")));
+		ability2MainP.add(new JLabel(new ImageIcon("public/orb.png")));
 		ability2MainP.add(ability2P);
 		
 		////////////////////////////////
@@ -273,7 +273,7 @@ public class GameFrame  extends JFrame implements ActionListener  {
 		ability3P.add(ability3RightB,BorderLayout.EAST);
 		ability3P.add(ability3LeftB,BorderLayout.WEST);
 	
-		ability3MainP.add(new JLabel(new ImageIcon("orb.png")));
+		ability3MainP.add(new JLabel(new ImageIcon("public/orb.png")));
 		ability3MainP.add(ability3P);
 	////////////////////////////////////////////
 		
@@ -365,10 +365,10 @@ public class GameFrame  extends JFrame implements ActionListener  {
 		
 		
 		
-		attackMainP.add(new JLabel(new ImageIcon("attack2.png")));
+		attackMainP.add(new JLabel(new ImageIcon("public/attack2.png")));
 		attackMainP.add(attackP);
 		
-		moveMainP.add(new JLabel(new ImageIcon("Arrows.png")));
+		moveMainP.add(new JLabel(new ImageIcon("public/Arrows.png")));
 		moveMainP.add(moveP);
 		
 		functionP.add(attackMainP);
@@ -388,23 +388,23 @@ public class GameFrame  extends JFrame implements ActionListener  {
 		
 		
 		//ImageIcons
-		ImageIcon captianamericaf = new ImageIcon("captainamericaf.png");
-		ImageIcon deadpoolf = new ImageIcon("deadpoolf.png");
-		ImageIcon drstrangef = new ImageIcon("drstrangef.png");
-		ImageIcon electrof = new ImageIcon("electrof.png");
-		ImageIcon ghostriderf = new ImageIcon("ghostriderf.png");
-		ImageIcon helaf = new ImageIcon("helaf.png");
-		ImageIcon hulkf = new ImageIcon("hulkf.png");
-		ImageIcon icemanf = new ImageIcon("iceManf.png");
-		ImageIcon ironmanf = new ImageIcon("ironManf.png");
-		ImageIcon lokif = new ImageIcon("lokif.png");
-		ImageIcon quicksilverf = new ImageIcon("quickSilverf.png");
-		ImageIcon spidermanf = new ImageIcon("spiderManf.png");
-		ImageIcon thorf = new ImageIcon("thorf.png");
-		ImageIcon venomf = new ImageIcon("venomf.png");
-		ImageIcon yellowjacketf = new ImageIcon("yellowjackf.png");
+		ImageIcon captianamericaf = new ImageIcon("public/captainamericaf.png");
+		ImageIcon deadpoolf = new ImageIcon("public/deadpoolf.png");
+		ImageIcon drstrangef = new ImageIcon("public/drstrangef.png");
+		ImageIcon electrof = new ImageIcon("public/electrof.png");
+		ImageIcon ghostriderf = new ImageIcon("public/ghostriderf.png");
+		ImageIcon helaf = new ImageIcon("public/helaf.png");
+		ImageIcon hulkf = new ImageIcon("public/hulkf.png");
+		ImageIcon icemanf = new ImageIcon("public/iceManf.png");
+		ImageIcon ironmanf = new ImageIcon("public/ironManf.png");
+		ImageIcon lokif = new ImageIcon("public/lokif.png");
+		ImageIcon quicksilverf = new ImageIcon("public/quickSilverf.png");
+		ImageIcon spidermanf = new ImageIcon("public/spiderManf.png");
+		ImageIcon thorf = new ImageIcon("public/thorf.png");
+		ImageIcon venomf = new ImageIcon("public/venomf.png");
+		ImageIcon yellowjacketf = new ImageIcon("public/yellowjackf.png");
 		
-		 coverf= new ImageIcon("cover.png");
+		 coverf= new ImageIcon("public/cover.png");
 		
 		JLabel captainamerical = new JLabel (captianamericaf);
 		JLabel deadpooll = new JLabel (deadpoolf);
@@ -1526,7 +1526,7 @@ public class GameFrame  extends JFrame implements ActionListener  {
 		updateCurrentChampion();
 		updateChampionTurn();
 		cleanUpBoard();
-		if (game.checkGameOver() != null) {
+		if (game.checkGameOver() == game.getFirstPlayer()||game.checkGameOver() == game.getSecondPlayer()) {
 			Player winner = game.checkGameOver();
 			this.setVisible(false);
 			new GameOverFrame().setVisible(true);

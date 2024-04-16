@@ -17,8 +17,12 @@ import engine.Player;
 
 public class GameOverFrame extends JFrame implements ActionListener {
 	
-	private Game game= GameFrame.getGame();
-	Player winner = game.checkGameOver();
+	
+	String player1Name= PlayerNameFrame.getPlayer1();
+	Player Player1 = new Player(player1Name);
+	String player2Name= PlayerNameFrame.getPlayer2();
+	Player Player2 = new Player(player2Name);
+	private Player winner = GameFrame.getWinner();
 	
 	JButton closeB = new JButton();
 	JLabel winnerName = new JLabel();
@@ -31,7 +35,7 @@ public class GameOverFrame extends JFrame implements ActionListener {
 		this.setLayout(new BorderLayout());
 		this.setTitle("Marvel Ultimate War");
 		this.setIconImage(new ImageIcon("GameIcon.jpeg").getImage());
-		this.setBackground(Color.BLACK);
+		
 		this.repaint();
 		
 		JLabel closeL=new JLabel("Close");
@@ -46,17 +50,20 @@ public class GameOverFrame extends JFrame implements ActionListener {
 		
 		
 		winnerName.setBackground(Color.BLACK);
-		if(game.getFirstPlayer().getName().equals(winner.getName())) {
-			winnerName.setText("The Winner is " + game.getFirstPlayer().getName());
+		if(Player1 == winner) {
+			winnerName.setText("The Winner is " +player1Name);
 			winnerName.setForeground(Color.BLUE);
 		}
-		else
-			winnerName.setText("The Winner is " + game.getSecondPlayer().getName());
+		else {
+			winnerName.setText("The Winner is " + player2Name);
 			winnerName.setForeground(Color.RED);
+		}
 			
 		this.add(winnerName,BorderLayout.CENTER);
 		this.add(gameOver,BorderLayout.NORTH);
 		this.add(closeB,BorderLayout.SOUTH);
+		
+		this.revalidate();
 	}
 	
 	

@@ -15,7 +15,7 @@ public static void main(String[]args) throws IOException {
 	
 		new PlayerNameFrame();
 		new ChampionSelection();
-		new GameOverFrame();
+		
 		
 	}
 }

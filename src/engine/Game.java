@@ -34,6 +34,7 @@ import model.effects.SpeedUp;
 import model.effects.Stun;
 import model.world.AntiHero;
 import model.world.Champion;
+import model.world.Condition;
 import model.world.Cover;
 import model.world.Damageable;
 import model.world.Direction;
@@ -228,12 +229,23 @@ public class Game  {
 	}
 
 	public Player checkGameOver() {
-		if (firstPlayer.getTeam().size() == 0)
-			return secondPlayer;
-		else if (secondPlayer.getTeam().size() == 0)
-			return firstPlayer;
+		boolean allDead1 = true;
+		for (int i = 0; i < this.firstPlayer.getTeam().size(); i++) {
+			if (!firstPlayer.getTeam().get(i).getCondition().equals(Condition.KNOCKEDOUT))
+				allDead1 = false;
+		}
+		boolean allDead2 = true;
+		for (int j = 0; j < this.secondPlayer.getTeam().size(); j++) {
+			if (!this.secondPlayer.getTeam().get(j).getCondition().equals(Condition.KNOCKEDOUT))
+				allDead2 = false;
+		}
+		if (allDead1)
+			return this.secondPlayer;
+		else if (allDead2)
+			return this.firstPlayer;
 		else
 			return null;
+
 	}
 
 	public void move(Direction d) throws NotEnoughResourcesException, UnallowedMovementException {
