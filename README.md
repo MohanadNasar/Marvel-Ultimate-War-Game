@@ -7,9 +7,16 @@ Marvel: Ultimate War is an electrifying 3v3 2D board game set in the Marvel Univ
 ## How to Play
 
 1. **Choose Your Team Name**: Select a memorable name for your team.
+![ChooseYourName](https://github.com/MohanadNasar/Marvel-Ultimate-War-Game/blob/main/MarvelName.png?raw=true)
 2. **Assemble Your Team**: Pick three characters from the Marvel Universe, each with their own unique abilities. Decide if they are heroes, villains, or antiheroes.
-3. **Take Turns**: Marvel: Ultimate War is a turn-based game. Strategically move your characters and utilize their abilities to gain an advantage over your opponents.
-4. **Eliminate Opponents**: Your goal is to eliminate all three characters from your opponents' teams. The last player with at least one character remaining wins the game.
+![ChooseYourName](https://github.com/MohanadNasar/Marvel-Ultimate-War-Game/blob/main/PickUrChampions.png?raw=true)
+3. Choose Your Leader.
+![ChooseYourName](https://github.com/MohanadNasar/Marvel-Ultimate-War-Game/blob/main/ChooseUrLeader.png?raw=true)
+4. **Take Turns**: Marvel: Ultimate War is a turn-based game. Strategically move your characters and utilize their abilities to gain an advantage over your opponents.
+![ChooseYourName](https://github.com/MohanadNasar/Marvel-Ultimate-War-Game/blob/main/Gameplay.png?raw=true)
+5. **Eliminate Opponents**: Your goal is to eliminate all three characters from your opponents' teams. The last player with at least one character remaining wins the game.
+![ChooseYourName](https://github.com/MohanadNasar/Marvel-Ultimate-War-Game/blob/main/Snap-Victory-1200x675.jpg?raw=true)
+
 
 ## Character Types
 
